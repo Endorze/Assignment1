@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="../stylesheets/main.css" />
-  </head>
-  <body>
-    <header class="header">General information</header>
-    <div class="horizontal">
-      <div class="globalMenu">
-        <div class="globalMenuNavTags">
-            <a href="/websites/main.html">Home</a>
-            <a href="/websites/aboutme.html">About me</a>
-            <a href="/websites/contactme.html" class="currentPageTag">Contact us</a>
-        </div>
-      </div>
-      <div class="mainContentWrapper">
-        <h1>Hej</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="../stylesheets/main.css" />
+</head>
+
+<body>
+  <header class="header">General information</header>
+  <div class="horizontal">
+    <div class="globalMenu">
+      <div class="globalMenuNavTags">
+        <a href="./main.html">Home</a>
+        <a href="./aboutme.html">About me</a>
+        <a href="./contactme.html" class="currentPageTag">Contact us</a>
       </div>
     </div>
-  </body>
+    <div class="mainContent">
+      <div class="contactForm">
+        <h2>Please enter valid details</h2>
+        <form>
+          <div class="horizontal">
+            <div>
+              <p>Email:</p>
+              <input type="email" placeholder="Enter a valid e-mail" required></input>
+              <p>Name:</p>
+              <input type="text" placeholder="Enter your name" required></input>
+              <p>Telephone:</p>
+              <input type="number" placeholder="Enter a valid phone-number" required></input>
+  
+              <p>Whats on your mind?</p>
+              <textarea name="" id="" placeholder="Start typing..." required></textarea>
+            </div>
+            <div>
+              <button class="contactFormButton"><a href="mailto:alexander@testmail.com">Submit</a></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright &copy; 2024</p>
+    <p>Alexanders imagination Coorperation</p>
+    <div class="horizontal-media">
+      <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png"></img></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png"></img></a>
+      <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.png"></img></a>
+    </div>
+  </div>
+</body>
+
 </html>
