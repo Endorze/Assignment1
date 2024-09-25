@@ -126,6 +126,10 @@ body {
     justify-content: space-evenly;
 }
 
+.mainContent h2 {
+    text-decoration: underline;
+}
+
 .aboutMeSection {
     background-color: white;
     width: 100%;
@@ -216,6 +220,7 @@ h2 {
     border-radius: 5px;
     height: 200px;
     padding: 10px;
+    resize: none;
 }
 
 .contactForm input {
