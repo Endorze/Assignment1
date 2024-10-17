@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: white;
-  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/autumn-background-with-space-for-text-and-leaves-around-free-image.jpeg?w=600&quality=80);
 }
 
 html {
@@ -64,6 +63,7 @@ html {
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
   padding: 20px;
+  background-color: white;
 }
 
 .homeGridLayout {
@@ -195,7 +195,12 @@ html {
   max-width: 100%;
   width: 100%;
   padding: 15px;
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/backgroundimg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
@@ -265,7 +270,8 @@ h2 {
 }
 
 .contactForm input {
-  width: 200px;
+  width: 100%;
+  max-width: 70%;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -281,7 +287,8 @@ h2 {
   color: black;
   border: none;
   border-radius: 5px;
-  max-width: 150px;
+  max-width: 30%;
+  width: 100%;
   margin-top: 5%;
   padding: 10px;
 }
@@ -327,7 +334,6 @@ h2 {
   .contactFormButton {
     width: 30%;
   }
-
 
   .card {
     width: 85vw;
